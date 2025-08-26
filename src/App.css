@@ -1,0 +1,183 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ecfdf5, #ffffff, #ecfdf5);
+  color: #1e293b;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: grid;
+  list-style: none;
+  padding-left: 0; 
+  gap: 3%; 
+}
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3%;
+}
+header nav a {
+  font-size: 0.875rem;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+header nav a:hover {
+  text-decoration: none;
+}
+.h-9.w-9.rounded-xl.object-cover{
+  width: 15%;
+}
+.flex.items-center.gap-3 {
+  display:flex;
+  align-items: center;
+  gap: 2%;
+}
+.h-9.w-9.rounded-xl.bg-emerald-600{
+  font-size: 30px;
+}
+
+/* Hero */
+main h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #065f46;
+  margin-bottom: 1rem;
+}
+main p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  max-width: 40rem;
+  margin-bottom: 1.5rem;
+}
+.pt-6.pb-12.grid.md\:grid-cols-2.gap-10.items-center {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.mt-6.flex.gap-3 {
+  display: flex;
+  margin:5% 0% 5% 0%;
+}
+
+.grid.md\:grid-cols-3.gap-4, .grid.md\:grid-cols-2.gap-4 {
+  display: grid;
+  gap: 3%;
+
+}
+.bg-white.border.shadow-xl.rounded-3xl.p-6.flex.flex-col.items-center.gap-4, .text-sm.text-slate-500 {
+  display: grid;
+  justify-items: center;
+
+}
+
+.mt-6.flex.gap-3{
+  display: flex;
+  gap: 3%;
+}
+/* Cards de missão, visão e valores */
+article {
+  display: grid;
+}
+section article {
+  display: grid;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  border: 1px solid #e2e8f0;
+  padding: 1.25rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+section article h3 {
+  display: grid;
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.pb-20.space-y-6, .flex.items-end.justify-between {
+  margin: 5% 0% 0% 0%;
+}
+/* Badges */
+ul li {
+  background-color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 1.5rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  font-size: 0.875rem;
+  
+}
+
+/* Botões */
+button, .btn {
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+.btn-primary {
+  background-color: #059669;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: #047857;
+}
+.btn-secondary {
+  border: 1px solid #059669;
+  color: #065f46;
+}
+.btn-secondary:hover {
+  background-color: #ffffff;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #64748b;
+  padding: 2.5rem 1.5rem;
+}
