@@ -8,7 +8,7 @@
 
 
   // ✅ Links principais
-  const siteUrl = "https://itapiplast.com.br";
+  const siteUrl = "https://site-itapiplastic-h7avw2dzu-erikacibellysx24s-projects.vercel.app/";
   // Se você publicar, mova o PDF para /public e troque por "/ITAPIPLAST-ECOEMPREENDIMENTOS.pdf"
   const pdfUrl = "/ITAPIPLAST-ECOEMPREENDIMENTOS.pdf";
 
